@@ -72,3 +72,20 @@ lpop mylist
 ![Hashes](./images/Hashes.png)
 
 `HINCRBY` 는 String 명령어 `INCR` 과 다르게 지정된 숫자를 증가 시킬 수 있다.
+
+---
+
+#### SortedSets
+
+- Set과 유사하게 유니크한 값의 집합
+- 각 값은 연관된 score를 가지고 정렬되어 있음
+- 정렬된 상태이기에 빠르게 최소/최대값을 구할 수 있음
+- 순위 계산, 리더보드 구현 등에 활용
+
+#### 주요 명령어
+
+![SortedSets](./images/SortedSets.png)
+
+
+`ZRANGE`, `ZRANK` 는 기본적으로 오름차순 정렬이 적용된다.
+내림차순으로 정렬 하려면 사이에 `ZREVRANGE`, `ZREVRANK` 처럼 `*REV*` 추가해야한다.
