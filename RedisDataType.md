@@ -89,3 +89,17 @@ lpop mylist
 
 `ZRANGE`, `ZRANK` 는 기본적으로 오름차순 정렬이 적용된다.
 내림차순으로 정렬 하려면 사이에 `ZREVRANGE`, `ZREVRANK` 처럼 `*REV*` 추가해야한다.
+
+---
+
+#### Bitmaps
+
+- 비트 벡터를 사용해 N개의 Set을 공간 효율적으로 저장
+- 하나의 비트맵이 가지는 공간은 4,294,967,295(2^32-1)
+- 비트 연산 가능 
+
+#### 주요 명령어
+
+![Bitmaps](./images/Bitmaps.png)
+
+`GETBIT` 로 아직 지정되지 않은 offset 을 조회하면 기본 값은 `0` 이다.
