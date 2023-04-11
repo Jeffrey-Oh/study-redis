@@ -62,7 +62,7 @@ java -Dserver.port=8081 -jar redis.war
 ```
 http://localhost:8080/login?name=jeffrey
 ```
-![RedisLogin](./images/RedisLogin.png)
+![RedisLogin](../images/RedisLogin.png)
 
 이미지에서 볼 수 있듯이 응답헤더에 `JSESSION` 이라는 값이 아닌 `SESSION` 이라는 값으로 할당되어 받은 것을 볼 수 있다.
 
@@ -72,6 +72,6 @@ http://localhost:8080/login?name=jeffrey
 ```
 http://localhost:8081/my-name
 ```
-![RedisLoginGetName](./images/RedisLoginGetName.png)
+![RedisLoginGetName](../images/RedisLoginGetName.png)
 
 요청헤더에 이전에 저장한 `SESSION` 값을 그대로 요청하며 분산환경에서도 같은 값을 조회하는 것을 볼 수 있다.

@@ -6,9 +6,9 @@
 - [x] Redis 소개와 특징
 - [x] NoSQL과 Redis
 - [x] Redis 설치와 실습
-- [ ] Redis Data Type의 이행
-- [ ] Redis 개발 실습
-- [ ] 분산 환경에서의 세션 스토어 만들기
+- [x] Redis Data Type의 이행
+- [x] Redis 개발 실습
+- [x] 분산 환경에서의 세션 스토어 만들기
 - [ ] 서비스 속도를 높이는 캐시 레이어 만들기
 - [ ] 게임 리더 보드 만들기
 - [ ] Pub/Sub을 이용해 손쉽게 채팅방 기능 구현하기

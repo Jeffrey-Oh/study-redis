@@ -9,7 +9,7 @@
 
 #### 주요 명령어
 
-![Strings](./images/Strings.png)
+![Strings](../images/Strings.png)
 
 `INCR` 같은 경우에는 값이 Atomic 하게 저장되기 때문에 `Race Condition` 에 걸리지 않는다.
 
@@ -22,7 +22,7 @@
 
 #### 주요 명령어
 
-![Lists](./images/Lists.png)
+![Lists](../images/Lists.png)
 
 같은 방향에 값을 넣고 빼게되면 Stack 처럼 실행되고 반대 방향에서 빼게되면 Queue 처럼 실행된다.
 
@@ -54,7 +54,7 @@ lpop mylist
 
 #### 주요 명령어
 
-![Sets](./images/Sets.png)
+![Sets](../images/Sets.png)
 
 > 웹 페이지에서 특정 시간 내에 사용이 가능한 쿠폰을 발급할 때 사용자는 딱 한번만 발급받을 수 있을 때 검증하기 위해 Set 에 사용자 정보를 넣어두면
 빠르게 확인이 가능하다.
@@ -69,7 +69,7 @@ lpop mylist
 
 #### 주요 명령어
 
-![Hashes](./images/Hashes.png)
+![Hashes](../images/Hashes.png)
 
 `HINCRBY` 는 String 명령어 `INCR` 과 다르게 지정된 숫자를 증가 시킬 수 있다.
 
@@ -84,7 +84,7 @@ lpop mylist
 
 #### 주요 명령어
 
-![SortedSets](./images/SortedSets.png)
+![SortedSets](../images/SortedSets.png)
 
 
 `ZRANGE`, `ZRANK` 는 기본적으로 오름차순 정렬이 적용된다.
@@ -100,7 +100,7 @@ lpop mylist
 
 #### 주요 명령어
 
-![Bitmaps](./images/Bitmaps.png)
+![Bitmaps](../images/Bitmaps.png)
 
 `GETBIT` 로 아직 지정되지 않은 offset 을 조회하면 기본 값은 `0` 이다.
 
@@ -115,4 +115,4 @@ lpop mylist
 
 #### 주요 명령어
 
-![HyperLogLog](./images/HyperLogLog.png) 
+![HyperLogLog](../images/HyperLogLog.png) 

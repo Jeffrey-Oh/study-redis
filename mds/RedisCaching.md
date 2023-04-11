@@ -30,7 +30,7 @@
 - 장점 : 필요한 데이터만 캐시에 저장되고, Cache Miss 가 있어도 치명적이지 않음.
 - 단점 : 최초 접근은 느림, 업데이트 주기가 일정하지 않기 때문에 캐시가 최신 데이터가 아닐 수 있음.
 
-![Cache-Aside](./images/Cache-Aside.png)
+![Cache-Aside](../images/Cache-Aside.png)
 
 ---
 
@@ -40,7 +40,7 @@
 - 장점 : 캐시가 항상 동기화되어 있어 데이터가 최신이다.
 - 단점 : 자주 사용하지 않는 데이터도 캐시되고, 쓰기 지연시간이 증가한다.
 
-![Write-Through](./images/Write-Through.png)
+![Write-Through](../images/Write-Through.png)
 
 ---
 
@@ -51,7 +51,7 @@
 - 단점 : 캐시가 DB에 쓰기 전에 장애가 생기면 데이터 유실 가능.
 - 로그 데이터 같은 것에 사용하면 될 듯
 
-![Write-Back](./images/Write-Back.png)
+![Write-Back](../images/Write-Back.png)
 
 ---
 
