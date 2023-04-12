@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.504s</div>
+<div class="counter">0.450s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.504s</td>
+<td class="success">0.450s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,14 +87,14 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>17:50:21.646 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [RedisApplicationTests]: using SpringBootContextLoader
-17:50:21.651 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.study.redis.RedisApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-17:50:21.651 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.study.redis.RedisApplicationTests]: RedisApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:50:21.675 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [RedisApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
-17:50:21.736 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/jeffrey/Desktop/workspace/fastcampus/study-redis/build/classes/java/main/com/study/redis/RedisApplication.class]
-17:50:21.737 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.study.redis.RedisApplication for test class com.study.redis.RedisApplicationTests
-17:50:21.821 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [RedisApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
-17:50:21.823 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [RedisApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+<pre>13:36:46.561 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Neither @ContextConfiguration nor @ContextHierarchy found for test class [RedisApplicationTests]: using SpringBootContextLoader
+13:36:46.566 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader -- Could not detect default resource locations for test class [com.study.redis.RedisApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:36:46.567 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.study.redis.RedisApplicationTests]: RedisApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:36:46.592 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using ContextCustomizers for test class [RedisApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+13:36:46.659 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider -- Identified candidate component class: file [/Users/jeffrey/Desktop/workspace/fastcampus/study-redis/build/classes/java/main/com/study/redis/RedisApplication.class]
+13:36:46.661 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.study.redis.RedisApplication for test class com.study.redis.RedisApplicationTests
+13:36:46.746 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Using TestExecutionListeners for test class [RedisApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+13:36:46.747 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener -- Before test class: class [RedisApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -104,12 +104,12 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.0.5)
 
-2023-04-11T17:50:22.100+09:00  INFO 77323 --- [    Test worker] com.study.redis.RedisApplicationTests    : Starting RedisApplicationTests using Java 17.0.4 with PID 77323 (started by jeffrey in /Users/jeffrey/Desktop/workspace/fastcampus/study-redis)
-2023-04-11T17:50:22.102+09:00  INFO 77323 --- [    Test worker] com.study.redis.RedisApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
-2023-04-11T17:50:22.611+09:00  INFO 77323 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-11T17:50:22.617+09:00  INFO 77323 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2023-04-11T17:50:22.643+09:00  INFO 77323 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
-2023-04-11T17:50:23.678+09:00  INFO 77323 --- [    Test worker] com.study.redis.RedisApplicationTests    : Started RedisApplicationTests in 1.821 seconds (process running for 2.832)
+2023-04-12T13:36:47.033+09:00  INFO 42087 --- [    Test worker] com.study.redis.RedisApplicationTests    : Starting RedisApplicationTests using Java 17.0.4 with PID 42087 (started by jeffrey in /Users/jeffrey/Desktop/workspace/fastcampus/study-redis)
+2023-04-12T13:36:47.035+09:00  INFO 42087 --- [    Test worker] com.study.redis.RedisApplicationTests    : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-04-12T13:36:47.523+09:00  INFO 42087 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-12T13:36:47.526+09:00  INFO 42087 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-04-12T13:36:47.558+09:00  INFO 42087 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-04-12T13:36:48.531+09:00  INFO 42087 --- [    Test worker] com.study.redis.RedisApplicationTests    : Started RedisApplicationTests in 1.749 seconds (process running for 2.811)
 </pre>
 </span>
 </div>
@@ -121,7 +121,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.6.1</a> at 2023 Apr 11 17:50:24</p>
+<a href="http://www.gradle.org">Gradle 7.6.1</a> at 2023 Apr 12 13:36:49</p>
 </div>
 </div>
 </body>
